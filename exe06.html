@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contador de Aprovações</title>
+	<script type="text/javascript">
+		var resp = "s";
+
+		var aprovados = 0;
+
+		do{
+
+
+			var n1 = parseFloat(prompt("informe a nota 1: "));
+			var n2 = parseFloat(prompt("informe a nota 2: "));
+
+			var med = (n2 + n2) / 2;
+
+			if (med > 5) {
+
+				alert("média: " + med);
+				aprovados ++;
+			}else{
+
+				alert("média: " + med);
+
+			}
+
+
+			resp = prompt("Calcular a média de outro aluno S/N?")
+
+		}while(resp != "n")
+
+		alert("Quantidade de aprovados: " + aprovados);
+
+	</script>
+
+
+</head>
+<body>
+
+</body>
+</html>

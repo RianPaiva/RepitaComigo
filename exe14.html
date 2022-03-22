@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Qual intervalo?</title>
+	<script type="text/javascript">
+		
+		var intervalo = 0;
+		var fora = 0;
+
+		for (var i = 0; i < 10; i++) {
+			
+			var recebe = parseInt(prompt("Informe um número"));
+
+			if(recebe > 23 && recebe < 43){
+
+				intervalo ++;
+
+			}else{
+
+				fora ++;
+			}
+		}
+
+		alert("no intervalo [24,42]: " + intervalo + " fora: " + fora);
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
